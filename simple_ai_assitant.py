@@ -115,7 +115,7 @@ def build_tool_calls_payload(tool_calls):
 # Chat loop starts from here
 while True:
 
-    user_input = input("\n👦🏻 MIK: ")
+    user_input = input("\n👦🏻 Me: ")
     
     if user_input.lower() in ["exit", "quit", "bye", "goodbye"]:
         break
